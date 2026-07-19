@@ -1,8 +1,10 @@
+import Hero from "../../components/home/Hero";
+
 function Home() {
   return (
-    <div className="text-center text-4xl font-bold">
-      Welcome to Site Of Kindness ❤️
-    </div>
+    <>
+      <Hero />
+    </>
   );
 }
 
