@@ -1,0 +1,5 @@
+Host github-suraj
+    HostName github.com
+    User git
+    IdentityFile ~/.ssh/github_suraj
+    IdentitiesOnly yes

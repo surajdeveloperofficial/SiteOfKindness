@@ -1,15 +1,15 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "SiteOfKindness Backend API",
+  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js",
-  "dev": "nodemon app.js"
+    "dev": "nodemon server.js",
+    "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Suraj",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^6.0.0",
