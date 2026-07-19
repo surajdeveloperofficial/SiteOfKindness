@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+
+# Build
+dist/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Coverage
+coverage/# Dependencies
+node_modules/
+
+# Environment Variables
+.env
+
+# Build
+dist/
+
+# Logs
+*.log
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Coverage
+coverage/
