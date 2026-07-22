@@ -1,9 +1,12 @@
 import express from "express";
 import cors from "cors";
+import storyRoutes from "./routes/storyRoutes.js";
 
 import authRoutes from "./routes/authRoutes.js";
 
+
 const app = express();
+
 
 // Middlewares
 app.use(cors());
@@ -19,5 +22,6 @@ app.get("/", (req, res) => {
 
 // Auth Routes
 app.use("/api/auth", authRoutes);
+app.use("/api/stories", storyRoutes);
 
 export default app;

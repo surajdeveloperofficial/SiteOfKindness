@@ -26,6 +26,15 @@ function Navbar() {
           <Link to="/contact" className="hover:text-emerald-400">
             Contact
           </Link>
+          <Link to="/login" className="hover:text-emerald-400">
+            Login
+          </Link>
+           <Link to="/dashboard" className="hover:text-emerald-400">
+            Dashboard
+          </Link>
+          <Link to="/stories" className="hover:text-emerald-400">
+            Stories
+          </Link>
         </nav>
 
         {/* Buttons */}
